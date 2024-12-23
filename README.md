@@ -7,7 +7,7 @@ The Costco Receipt Calculator is a simple Python-based application designed to s
 ## Features
 
 - **Item Entry**: Add items with details such as name, pre-tax price, VAT rate, quantity, and discount per unit.
-- **VAT Calculation**: Automatically applies VAT based on the specified tax code (0%, 5%, or 20%).
+- **VAT Calculation**: Automatically applies VAT based on the specified tax code (0% or 20%).
 - **Discount Handling**: Supports per-unit discounts that are correctly applied before VAT calculation.
 - **Quantity Support**: Calculates total costs for multiple quantities of the same item.
 - **Receipt Generation**: Displays a concise, formatted receipt with subtotals, VAT, discounts, and the grand total.
@@ -29,7 +29,7 @@ Execute the script using Python.
 - Enter the item name.
 - Specify the pre-tax price.
 - Enter the quantity.
-- Choose the tax code (0 for 0%, 5 for 5%, 20 for 20%).
+- Choose the tax code (0 for 0%, 20 for 20%).
 - Optionally, provide a discount per unit.
 
 ## Example
@@ -60,8 +60,6 @@ Grand Total: £2.20
 ## VAT Rates
 
 0%: Essential goods (e.g., food).
-
-5%: Reduced-rate goods/services.
 
 20%: Standard-rate goods/services.
 
